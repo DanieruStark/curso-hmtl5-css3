@@ -7,10 +7,6 @@ header {
     margin: 0 auto;
 }
 
-.caixa h1 img {
-    max-height: 200px;
-    max-width: 127px;
-}
 nav {
     position: absolute;
     top: 110px;
@@ -33,6 +29,28 @@ nav a {
 
 nav a:hover {
     color: #ffc042;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
 
 .produtos {
@@ -81,13 +99,7 @@ nav a:hover {
 footer {
     text-align: center;
     background: url(img/bg.jpg);
-    padding: 40px 0;
-}
-
-footer img {
-    max-width: 77px;
-    max-height: 150px;
-    
+    padding: 40px;
 }
 
 .copyright {
