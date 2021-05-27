@@ -1,6 +1,5 @@
 header {
     background: #BBBBBB;
-    padding: 20px 0;
 }
 .caixa {
     position: relative;
@@ -35,8 +34,6 @@ nav a {
 nav a:hover {
     color: #ffc042;
 }
-
-
 
 .produtos {
     width: 940px;
