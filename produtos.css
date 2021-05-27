@@ -90,5 +90,11 @@ footer {
 footer img {
     max-width: 77px;
     max-height: 150px;
-    padding-bottom: 8px;
+    
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 10px;
 }
