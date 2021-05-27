@@ -1,5 +1,6 @@
 header {
     background: #BBBBBB;
+    padding: 30px;
 }
 .caixa {
     position: relative;
@@ -45,18 +46,19 @@ nav a:hover {
 }
 
 .principal{
-    padding: 30px;
+    padding: 50px;
+    margin: 30px;
 }
 
 .titulo-principal{
     padding-left: 20px;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 p {
-    margin: 30px;
+    margin: 50px;
     text-align: center;
     font-size: 15px;
 }
@@ -68,26 +70,57 @@ p {
 #quote strong {
     font-style: italic;
 }
+
 em strong {
     color: #d48e00;
 }
 
-.lista{
-    font-style: italic;
-}
-
-.beneficios{
-    background: #FFFFFF;
-}
-
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-
+#quote strong:hover {
+    font-size: 20px;
 }
 
 .img-beneficios{
-    width: 50%;
+    width: 100%;
+
+}
+
+.beneficios {
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+}
+
+.lista-geral {
+    display: inline;
+    vertical-align: top;
+    width: 20%;
+}
+
+.lista{
+    font-style: italic;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.lista:hover{
+    color: #d48e00;
+    font-size: 23px;
+}
+
+footer {
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px 0;
+}
+
+footer img {
+    max-width: 77px;
+    max-height: 150px;
+    
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 10px;
 }
