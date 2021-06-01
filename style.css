@@ -97,7 +97,7 @@ nav a:hover {
     width: 60%;
     float: right;
     opacity: 1;
-    position: 400ms;
+    transition: 400ms;
     box-shadow: 10px 10px 10px 0 #000000;
 }
 
@@ -253,10 +253,44 @@ footer {
     }
 
     nav {
+        padding-top: 10px;
+        text-align: center;
         position: static;
+    }
+
+    nav li {
+        margin: 0 0 0 10px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .principal p {
+        font-size: 0.99em;
+        text-align: left;
+    }
+
+    .titulo-principal {
+        font-size: 1.8em;
+    }
+
+    .mapa {
+        padding: 0px;
     }
 
     .lista-beneficios, .img-beneficios {
         width: 100%;
+    }
+
+    .img-beneficios {
+        box-shadow: none;
+    }
+
+    .lista-beneficios {
+        padding-top: 15px;
+    }
+    .itens {
+        padding-left: 10px;
     }
 }
