@@ -244,7 +244,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .produtos li {
         width: auto;
     }
 
@@ -292,5 +292,12 @@ footer {
     }
     .itens {
         padding-left: 10px;
+    }
+
+/* Página Produtos */
+    .produtos li {
+        display: block;
+        padding-bottom: 48px;
+        margin: 20px;
     }
 }
