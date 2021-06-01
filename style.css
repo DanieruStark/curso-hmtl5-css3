@@ -300,4 +300,13 @@ footer {
         padding-bottom: 48px;
         margin: 20px;
     }
+
+/* Página Contato */
+ form, table {
+     margin: 40px 20px;
+ }
+
+ .input-padrao {
+     width: 70%;
+ }
 }
